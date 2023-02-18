@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class q_설탕배달 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        long n = scanner.nextLong();
         if (n == 3) {
             System.out.println(1);
             System.exit(0);
@@ -14,7 +14,7 @@ public class q_설탕배달 {
             System.exit(0);
         }
 
-        int[] dp = new int[n + 1];
+        long[] dp = new long[(int) (n + 1)];
         dp[3] = 1;
         dp[5] = 1;
         for (int i = 6; i < n + 1; i++) {
@@ -26,10 +26,10 @@ public class q_설탕배달 {
                 dp[i] = dp[i - 5] + 1;
             }
         }
-        if (dp[n] == 0) {
+        if (dp[(int) n] == 0) {
             System.out.println(-1);
         } else {
-            System.out.println(dp[n]);
+            System.out.println(dp[(int) n]);
         }
     }
 }
