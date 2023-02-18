@@ -1,4 +1,4 @@
-package algorithm.beakjoon.IM;
+package algorithm.IM;
 
 import java.util.HashSet;
 import java.util.Scanner;

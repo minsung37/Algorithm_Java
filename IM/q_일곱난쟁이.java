@@ -1,4 +1,4 @@
-package algorithm.beakjoon.IM;
+package algorithm.IM;
 
 import java.util.Arrays;
 import java.util.Scanner;

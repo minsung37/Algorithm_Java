@@ -1,4 +1,4 @@
-package algorithm.beakjoon.IM;
+package algorithm.IM;
 
 import java.io.BufferedReader;
 import java.io.IOException;

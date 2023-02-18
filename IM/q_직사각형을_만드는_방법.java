@@ -1,4 +1,4 @@
-package algorithm.beakjoon.IM;
+package algorithm.IM;
 import java.util.Scanner;
 
 public class q_직사각형을_만드는_방법 {

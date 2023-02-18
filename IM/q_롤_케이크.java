@@ -1,4 +1,4 @@
-package algorithm.beakjoon.IM;
+package algorithm.IM;
 import java.util.Scanner;
 
 public class q_롤_케이크 {
