@@ -1,4 +1,4 @@
-package algorithm.beakjoon.basic;
+package algorithm.Beakjoon.basic;
 // 개수 세기
 // https://www.acmicpc.net/problem/10807
 

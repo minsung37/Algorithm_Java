@@ -1,4 +1,4 @@
-package algorithm.beakjoon.basic;
+package algorithm.Beakjoon.basic;
 // 합
 // https://www.acmicpc.net/problem/8393
 

@@ -1,4 +1,4 @@
-package algorithm.beakjoon.basic;
+package algorithm.Beakjoon.basic;
 import java.io.*;
 // 더하기 사이클
 // https://www.acmicpc.net/problem/1110

@@ -1,4 +1,4 @@
-package algorithm.beakjoon.basic;
+package algorithm.Beakjoon.basic;
 // 영수중
 // https://www.acmicpc.net/problem/25304
 

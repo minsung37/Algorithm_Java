@@ -1,4 +1,4 @@
-package algorithm.beakjoon.advanced;
+package algorithm.Beakjoon.advanced;
 
 import java.io.BufferedReader;
 import java.io.IOException;

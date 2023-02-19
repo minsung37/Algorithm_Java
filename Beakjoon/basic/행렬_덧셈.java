@@ -1,4 +1,4 @@
-package algorithm.beakjoon.basic;
+package algorithm.Beakjoon.basic;
 // 행렬 덧셈
 // https://www.acmicpc.net/problem/2738
 
