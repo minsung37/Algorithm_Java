@@ -1,11 +1,11 @@
-package algorithm.Beakjoon.basic;
+package algorithm.Beakjoon.basic.backtraking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class N과M2 {
+public class N과M3 {
 
     public static int n;
     public static int m;
@@ -13,7 +13,7 @@ public class N과M2 {
     public static boolean[] visited;
     public static StringBuilder sb;
 
-    public static void backTracking(int prev, int depth) {
+    public static void backTracking(int depth) {
         if (depth == m) {
             for (int val : array) {
                 sb.append(val).append(" ");
@@ -21,10 +21,9 @@ public class N과M2 {
             sb.append("\n");
             return;
         }
-        for (int i = prev; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             array[depth] = i;
-            backTracking(i,depth + 1);
-            visited[i] = false;
+            backTracking(depth + 1);
         }
     }
 
@@ -36,7 +35,7 @@ public class N과M2 {
         m = Integer.parseInt(st.nextToken());
         visited = new boolean[n + 1];
         array = new int[m];
-        backTracking(1, 0);
+        backTracking(0);
         System.out.println(sb);
     }
 }
