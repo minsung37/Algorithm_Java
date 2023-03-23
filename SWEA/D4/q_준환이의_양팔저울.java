@@ -11,14 +11,14 @@ public class q_준환이의_양팔저울 {
     public static int[] weightList, array;
     public static boolean[] visited;
 
-    public static void permutaion(int depth) {
+    public static void permutation(int depth) {
         if (depth == n)
             powerSet(0,0,0);
         for (int i = 0; i < n; i++) {
             if (!visited[i]) {
                 visited[i] = true;
                 array[depth] = weightList[i];
-                permutaion(depth + 1);
+                permutation(depth + 1);
                 visited[i] = false;
             }
         }
@@ -49,7 +49,7 @@ public class q_준환이의_양팔저울 {
                 weightList[i] = Integer.parseInt(st.nextToken());
             // 초기화
             result = 0;
-            permutaion(0);
+            permutation(0);
             System.out.printf("#%d %d\n", t + 1, result);
         }
     }
