@@ -1,4 +1,4 @@
-package algorithm.Beakjoon.problem;
+package algorithm.Beakjoon.BackTracking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
