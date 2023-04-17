@@ -1,3 +1,5 @@
+// 설탕배달2
+// https://www.acmicpc.net/problem/26099
 package algorithm.Beakjoon.Etc;
 
 import java.util.Scanner;
